@@ -107,7 +107,7 @@ body {
 }
 @media screen and (max-width: 1224px) {
     .texto {
-        bottom: 65%;
+        bottom: 50%;
      font-size: 0.9rem; /* Ajuste conforme necessário */
       margin-left: 8%; /* Ajuste conforme necessário */
       margin-right: 4%; /* Ajuste conforme necessário */
