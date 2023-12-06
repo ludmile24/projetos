@@ -92,7 +92,7 @@ body {
     z-index: 1000; /* Certifique-se de que o texto está acima das flores */
     margin-left: 50px;
     margin-right: 50px;
-    white-space: nowrap; /* Impede quebrar linha */
+    white-space: revert-layer; /* Impede quebrar linha */
     overflow: hidden; /* Esconde o texto que ainda não foi animado */
     animation: typeWriter 2s steps(10) forwards; /* Adiciona animação de digitação */
 }
