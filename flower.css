@@ -52,6 +52,20 @@ body {
   position: relative;
   transform: scale(0.7);
 }
+.audio-container {
+    position: fixed;
+    top: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1000;
+    padding: 5px;
+
+} 
+  .audio-container audio {
+    width: 100px; /* Largura desejada para a área do áudio */
+  }
+  
 .name {
     position: fixed;
     bottom: 80%;
